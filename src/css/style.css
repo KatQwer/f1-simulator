@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agdasima:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Funnel Display", monospace, sans-serif;
+}
+/* HTML objects */
+body {
+  text-align: center;
+  background-color: #f8f4f6;
+}
+
+header {
+  margin-top: 20px;
+}
+
+span {
+  margin: 0px 15px;
+}
+
+/* Classes */
+.header-info {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  & button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #f8f4f6;
+    border-radius: 2px;
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}
+
+.sim-button {
+  background-color: #d40707;
+  font-size: 18px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 25px;
+  margin: 0px 15px;
+  & i {
+    margin-right: 20px;
+  }
+  &:hover {
+    background-color: #c00606;
+  }
+}
+
+.settings-button {
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+  margin: 0px 15px;
+  & i {
+    margin-right: 15px;
+  }
+  &:hover {
+    background-color: #dadada;
+  }
+}
+
+.container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px 20px;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.rivalries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px;
+  background: #fff;
+  & h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555555;
+    font-weight: 600;
+  }
+}
+
+.rivalry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rival {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 8px;
+  &.left {
+    justify-content: flex-start;
+  }
+  &.right {
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  & span.color-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+  }
+}
+
+.vs-box {
+  background: #eee;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stat-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.leaderboards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.leaderboard {
+  background-color: #fff;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  & h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  & .see-more-button {
+    text-align: center;
+    & button {
+        margin-top: 5px;
+        border: none;
+        width: 100%;
+        padding: 5px 0px;
+        background-color: white;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+  }
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.position {
+  width: 20px;
+  font-weight: bold;
+}
+
+.team-color {
+  width: 12px;
+  height: 12px;
+  margin: 0 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.name {
+  flex-grow: 1;
+  & small {
+    display: block;
+    font-size: 0.8em;
+    color: #777;
+  }
+}
+
+.points {
+  text-align: right;
+  min-width: 60px;
+  & small {
+    display: block;
+    font-size: 0.75em;
+    color: #999;
+  }
+}
+
+.tab-title {
+    margin-bottom: 15px;
+}
+
+.log-button {
+  font-size: 14px;
+  background-color: white;
+  border: 2px solid #d3d3d3;
+  border-radius: 4px;
+  color: #4d4d4d;
+  padding: 5px 20px;
+  & i {
+    margin-right: 10px;
+  }
+  &:hover {
+    background-color: #eee;
+  }
+  &:active {
+    background-color: #ddd;
+  }
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+}
+
+.logs {
+  margin-top: 20px;
+}
+
+.log {
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  & span i {
+    margin-right: 8px;
+  }
+}
+
+.log-race-number {
+  float: right;
+}
+
+/* IDs */
+#buttons {
+  margin-bottom: 15px;
+}
+
+#tabs {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Log types */
+
+.race-win {
+  border-left: 4px solid #c5a806;
+  background-color: #fff9d8;
+}
+
+.qualifying-pole {
+  border-left: 4px solid #0689c5;
+  background-color: #d8ecff;
+}
+
+/* Team Colours */
+
+.alpine {
+  background: #fc5fe2;
+}
+
+.aston-martin {
+  background: #229971;
+}
+
+.ferrari {
+  background: #ed1131;
+}
+
+.haas {
+  background: #9c9fa2;
+}
+
+.mclaren {
+  background: #f47600;
+}
+
+.mercedes {
+  background: #00d7b6;
+}
+
+.rb {
+  background: #6c98ff;
+}
+
+.red-bull {
+  background: #0e43d6;
+}
+
+.sauber {
+  background: #01c00e;
+}
+
+.williams {
+  background: #83b7ff;
+}
+
+/* Position Awards */
+.gold {
+    color: #FFD700;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.bronze {
+    color: #CD7F32;
+}

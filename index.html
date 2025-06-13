@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>F1 Simulator</title>
+  </head>
+  <body onload="Standings();">
+    <header>
+      <!-- Header -->
+      <h1>F1 Simulator</h1>
+      <div class="header-info">
+        <span id="season_number">Season 1</span>
+        <span id="race_number">Race 1 of 24</span>
+        <span id="next_race">Next: Chinese GP</span>
+      </div>
+      <!-- Buttons -->
+      <div id="buttons">
+        <button onclick="race();" class="sim-button">
+          <i class="fa-solid fa-play"></i>
+          Simulate Next Race
+        </button>
+        <button onclick="settings();" class="settings-button">
+          <i class="fa-solid fa-gear"></i>
+          Settings
+        </button>
+      </div>
+      <!-- Championship Battle -->
+      <div id="championship_battle"></div>
+      <!-- Tabs -->
+      <div id="tabs">
+        <div class="nav-buttons">
+          <button onclick="Standings();">Standings</button>
+          <button onclick="Analytics();">Analytics</button>
+          <button onclick="Development();">Development</button>
+          <button onclick="Contracts();">Contracts</button>
+          <button onclick="Rivalries();">Rivalries</button>
+          <button onclick="Results();">Results</button>
+          <button onclick="Logs();">Logs</button>
+          <button onclick="Seasons();">Seasons</button>
+        </div>
+      </div>
+    </header>
+    <!-- Information -->
+    <main id="information"></main>
+    <!-- Footer -->
+    <footer></footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/5847c03f4c.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="src/js/main.js"></script>
+</html>
