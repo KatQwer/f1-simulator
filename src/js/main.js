@@ -16,20 +16,20 @@ class Driver {
 }
 
 // Alpine Drivers
-let pierre_gasly = new Driver('Pierre Gasly', 'GAS', 24, 12, 100000, 100000, 1000, 0, 0, 0);
-let franco_colapinto = new Driver('Franco Colapinto', 'COL', 22, 13, 100000, 100000, 1000, 0, 0, 0);
+let pierre_gasly = new Driver('Pierre Gasly', 'GAS', 23, 12, 100000, 100000, 1000, 0, 0, 0);
+let franco_colapinto = new Driver('Franco Colapinto', 'COL', 21, 13, 100000, 100000, 1000, 0, 0, 0);
 let jack_doohan = new Driver('Jack Doohan', 'DOO', 21, 14, 100000, 100000, 1000, 0, 0, 0);
 // Aston Martin Drivers
-let fernando_alonso = new Driver('Fernando Alonso', 'ALO', 21, 12, 100000, 100000, 1000, 0, 0, 0);
-let lance_stroll = new Driver('Lance Stroll', 'STR', 22, 16, 100000, 100000, 1000, 0, 0, 0);
+let fernando_alonso = new Driver('Fernando Alonso', 'ALO', 22, 12, 100000, 100000, 1000, 0, 0, 0);
+let lance_stroll = new Driver('Lance Stroll', 'STR', 23, 16, 100000, 100000, 1000, 0, 0, 0);
 let felipe_drugovich = new Driver('Felipe Drugovich', 'DRU', 18, 16, 100000, 100000, 1000, 0, 0, 0);
 // Ferrari Drivers
-let charles_leclerc = new Driver('Charles Leclerc', 'LEC', 28, 13, 100000, 100000, 1000, 0, 0, 0);
+let charles_leclerc = new Driver('Charles Leclerc', 'LEC', 27, 13, 100000, 100000, 1000, 0, 0, 0);
 let lewis_hamilton = new Driver('Lewis Hamilton', 'HAM', 27, 7, 100000, 100000, 1000, 0, 0, 0);
 let antonio_giovinazzi = new Driver('Antonio Giovinazzi', 'GIO', 19, 15, 100000, 100000, 1000, 0, 0, 0);
 // Haas Drivers
 let esteban_ocon = new Driver('Esteban Ocon', 'OCO', 26, 13, 100000, 100000, 1000, 0, 0, 0);
-let oliver_bearman = new Driver('Oliver Bearman', 'BEA', 22, 12, 100000, 100000, 1000, 0, 0, 0);
+let oliver_bearman = new Driver('Oliver Bearman', 'BEA', 23, 12, 100000, 100000, 1000, 0, 0, 0);
 let pietro_fittipaldi = new Driver('Pietro Fittipaldi', 'FIT', 18, 14, 100000, 100000, 1000, 0, 0, 0);
 // McLaren Drivers
 let lando_norris = new Driver('Lando Norris', 'NOR', 29, 9, 100000, 100000, 1000, 0, 0, 0);
@@ -45,14 +45,14 @@ let yuki_tsunoda = new Driver('Yuki Tsunoda', 'TSU', 21, 14, 100000, 100000, 100
 let pepe_marti = new Driver('Pepe Marti', 'MAR', 18, 16, 100000, 100000, 1000, 0, 0, 0);
 // Kick Sauber Drivers
 let nico_hulkenberg = new Driver('Nico Hulkenberg', 'HUL', 24, 10, 100000, 100000, 1000, 0, 0, 0);
-let gabriel_bortoleto = new Driver('Gabriel Bortoleto', 'BOR', 21, 16, 100000, 100000, 1000, 0, 0, 0);
+let gabriel_bortoleto = new Driver('Gabriel Bortoleto', 'BOR', 22, 16, 100000, 100000, 1000, 0, 0, 0);
 let theo_pourchaire = new Driver('Theo Pourchaire', 'POU', 20, 15, 100000, 100000, 1000, 0, 0, 0);
 // Racing Bulls Drivers
-let liam_lawson = new Driver('Liam Lawson', 'LAW', 22, 13, 100000, 100000, 1000, 0, 0, 0);
-let isack_hadjar = new Driver('Isack Hadjar', 'HAD', 24, 16, 100000, 100000, 1000, 0, 0, 0);
+let liam_lawson = new Driver('Liam Lawson', 'LAW', 23, 13, 100000, 100000, 1000, 0, 0, 0);
+let isack_hadjar = new Driver('Isack Hadjar', 'HAD', 26, 16, 100000, 100000, 1000, 0, 0, 0);
 let ayumu_iwasa = new Driver('Ayumu Iwasa', 'IWA', 18, 15, 100000, 100000, 1000, 0, 0, 0);
 // Williams Drivers
-let alex_albon = new Driver('Alexander Albon', 'ALB', 26, 15, 100000, 100000, 1000, 0, 0, 0);
+let alex_albon = new Driver('Alexander Albon', 'ALB', 27, 15, 100000, 100000, 1000, 0, 0, 0);
 let carlos_sainz = new Driver('Carlos Sainz Jr', 'SAI', 25, 12, 100000, 100000, 1000, 0, 0, 0);
 let mick_schumacher = new Driver('Mick Schumacher', 'SCH', 21, 13, 100000, 100000, 1000, 0, 0, 0);
 
