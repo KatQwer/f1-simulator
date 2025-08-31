@@ -38,5 +38,29 @@ When I eventually makes my own engine, the drivers will all be driving at the sa
 ## Added features
 **HTML Structure:** The base structure of the website includes the name at the top, buttons (simulating a race and going to settings), tabs (for navigating to area) and a container for each tab. <br><br>
 **Rivalries:** In 'Rivalries', you can see teammates head to head record from the race, qualifying and their points. This will show you who the number 1 driver is and who has to step up their game a little more.
+## Changed during the season
+Every now and then, after a race or a few races, the drivers' ratings will be downgraded or upgraded depending on their performance.
+### Most recent rating changes:
+(The plusses and minuses are for driver ratings, not positions)
+1. Oscar Piastri | 30 (-)
+2. Max Verstappen | 30 (-)
+3. Lando Norris | 29 (-)
+4. George Russell | 29 (-)
+5. Alexander Albon | 27 (+1)
+6. Lewis Hamilton | 27 (-)
+7. Charles Leclerc | 27 (-1)
+8. Andrea Kimi Antonelli | 26 (-)
+9. Isack Hadjar | 26 (+2)
+10. Esteban Ocon | 26 (-)
+11. Carlos Sainz Jr. | 25 (-)
+12. Nico Hulkenberg | 24 (-)
+13. Oliver Bearman | 23 (+1)
+14. Pierre Gasly | 23 (-1)
+15. Liam Lawson | 23 (+1)
+16. Lance Stroll | 23 (+1)
+17. Fernando Alonso | 22 (+1)
+18. Gabriel Bortoleto | 22 (+1)
+19. Franco Colapinto | 21 (-1)
+20. Yuki Tsunoda | 21 (-)
 ## Legal disclaimer
 I am in no way affiliated with &copy;Formula 1, &copy;FIA, &copy;FOM or any teams or drivers appearing in this simulator. All trademarks and names belong to their respective owners, and in no way am I pretending to be affiliated with them. This project is fan-made, for entertainment purposes only and **not** for profit.
