@@ -17,8 +17,8 @@ class Driver {
 
 // Alpine Drivers
 let pierre_gasly = new Driver('Pierre Gasly', 'GAS', 23, 12, 100000, 100000, 1000, 0, 0, 0);
-let franco_colapinto = new Driver('Franco Colapinto', 'COL', 21, 13, 100000, 100000, 1000, 0, 0, 0);
-let jack_doohan = new Driver('Jack Doohan', 'DOO', 21, 14, 100000, 100000, 1000, 0, 0, 0);
+let franco_colapinto = new Driver('Franco Colapinto', 'COL', 20, 13, 100000, 100000, 1000, 0, 0, 0);
+let jack_doohan = new Driver('Jack Doohan', 'DOO', 20, 14, 100000, 100000, 1000, 0, 0, 0);
 // Aston Martin Drivers
 let fernando_alonso = new Driver('Fernando Alonso', 'ALO', 22, 12, 100000, 100000, 1000, 0, 0, 0);
 let lance_stroll = new Driver('Lance Stroll', 'STR', 23, 16, 100000, 100000, 1000, 0, 0, 0);
@@ -65,15 +65,15 @@ class Car {
     }
 }
 
-let alpine_car = new Car('A524', 15.6);
-let aston_martin_car = new Car('AMR24', 13.7);
+let alpine_car = new Car('A524', 13.7);
+let aston_martin_car = new Car('AMR24', 14.8);
 let ferrari_car = new Car('SF-24', 17.5);
-let haas_car = new Car('VF-24', 14.4);
+let haas_car = new Car('VF-24', 14.8);
 let mclaren_car = new Car('MCL38', 18.6);
 let mercedes_car = new Car('F1 W15', 17.9);
-let rb_car = new Car('VCARB 01', 14.9);
+let rb_car = new Car('VCARB 01', 15.3);
 let red_bull_car = new Car('RB20', 16.9);
-let sauber_car = new Car('C44', 14.4);
+let sauber_car = new Car('C44', 14.6);
 let williams_car = new Car('FW46', 15.8);
 
 class Team {
