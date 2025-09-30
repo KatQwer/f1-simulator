@@ -6,13 +6,6 @@ Once I have finished all the current features I'm planning to implement (seen do
 - HTML
 - CSS
 - JavaScript
-## Version history
-**v0.0.1**. An F1 racing simulator logging race and championship data to the console. <br>
-**v0.0.5**. Added a base website with only a button to simulate races and a table to show driver championship data. <br>
-**v0.1.0**. Added a better layout, proper driver's leaderboard with racer, team, points and amount of wins and podiums. <br>
-**v0.1.5**. Added qualifying, where a certain amount of time gets added to your total race time depending on where you qualify. <br>
-**v0.2.0**. Added a 'Rivalries' tab where you can see a head to head for each team with qualifying, race result and total points. <br>
-**v0.3.0**. Added a partial 'Logs' tab where you can see each race's winner and pole-sitter.
 ## Currently working on
 I am currently working on adding in the latest qualifying results to the bottom of the 'Standings' tab. Here you can who went out in Q1 and Q2 and everyone's qualifying time.
 ## Current planned features
