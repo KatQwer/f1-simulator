@@ -191,7 +191,7 @@ class Log {
 const logs = [];
 
 const points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1];
-const quali_pen = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60];
+const quali_pen = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
 
 // HTML variables
 let season_number = document.getElementById('season_number');
